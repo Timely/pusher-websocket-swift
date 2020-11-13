@@ -215,10 +215,10 @@ extension PusherConnection: WebSocketConnectionDelegate {
         //
     }
 
-    public func webSocketDidReceiveError(connection: WebSocketConnection, error: Error) {
+    public func webSocketDidReceiveError(connection: WebSocketConnection, error: NWError) {
         self.delegate?.debugLog?(message: PusherLogger.debug(for: .errorReceived,
                                                              context: """
-            Error (code: \((error as NSError).code)): \(error.localizedDescription)
+            Error: \(error.debugDescription)
             """))
     }
 }
