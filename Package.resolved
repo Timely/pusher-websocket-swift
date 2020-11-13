@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "NWWebSocket",
-        "repositoryURL": "https://github.com/pfandrade/NWWebSocket",
+        "repositoryURL": "https://github.com/pusher/NWWebSocket.git",
         "state": {
-          "branch": "master",
-          "revision": "45c363ba0b30a995607679f8e7a22c20c6d13910",
+          "branch": "fix/reconnection-improvements",
+          "revision": "1615deb6d3a578460bb3f497c33d0eef720be7ec",
           "version": null
         }
       },
