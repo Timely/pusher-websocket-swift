@@ -1,3 +1,5 @@
+# IMPORTANT: THIS FORK IS NEEDED TO COMPILE MEMORY FOR MACOS. PLEASE DON'T DELETE IT.
+
 # Pusher Channels Swift Client (also works with Objective-C)
 
 [![Build Status](https://travis-ci.org/pusher/pusher-websocket-swift.svg?branch=master)](https://travis-ci.org/pusher/pusher-websocket-swift)
